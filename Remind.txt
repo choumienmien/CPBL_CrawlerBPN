@@ -1,4 +1,4 @@
-1.CPBL.py為改寫API進行爬蟲的程式(datatype.py需要Import)
-2.BP_pytorch.py為建立BPN
-3.6_v1.csv為數據資料
-4.其他數據為模型預測後輸出之資料
+1.CPBL(py)為改寫API進行爬蟲的程式(datatype.py需要Import)
+2.BP_pytorch(py)為建立BPN
+3.6_v1(csv)為數據資料
+4.output(file)其他數據為模型預測後輸出之資料
