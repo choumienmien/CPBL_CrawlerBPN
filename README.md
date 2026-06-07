@@ -19,9 +19,11 @@ CPBL_CrawlerBPN<br>
 #### 方法:
 利用 PyTorch 實作倒傳遞神經網路（Backpropagation Neural Network, BPN），建立深度學習模型進行比賽勝負預測。
 
+---
 ## 資料集（Dataset）
 利用API的方式，使用 [中華職業棒球大聯盟](https://www.cpbl.com.tw/)之數據
 
+---
 ## 網絡說明
 #### 三層網絡架構圖
 <div  align="center">  
@@ -73,6 +75,7 @@ CPBL_CrawlerBPN<br>
    目前實驗將 `n_trials` 設定為：
    n_trials = 100，設定為 100，以避免在小型資料集上進行過多 trial 而造成驗證集過擬合。
 
+---
 ## 架構
 ```mermaid
 flowchart LR
@@ -105,7 +108,7 @@ O --> P
 
 P --> Q[Test Accuracy]
 ```
-
+---
 ## 輸出結果
 #### Optuna 最佳超參數
 
@@ -132,12 +135,14 @@ P --> Q[Test Accuracy]
 | BPN | 0.706 |
 
 
-
+---
 ## 結論
 
 本研究比較 Logistic Regression、Random Forest、XGBoost 與 BPN 四種模型。
 
 在相同資料集與特徵條件下，BPN 模型於測試集取得最高準確率 70.6%，顯示神經網路模型能有效學習投打數據與比賽結果間的非線性關係，具有較佳的預測能力。
+
+---
 ## 貢獻
 
 1. 以爬蟲方式，取得中華職棒網頁中的數據資料
