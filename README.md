@@ -1,5 +1,9 @@
-# CPBL_CrawlerBPN
- 
+<h1 align="center">
+CPBL_CrawlerBPN<br>
+(使用2015-2022年 統一隊與兄弟隊比賽數據)
+</h1>
+
+
 ## 說明
 #### 研究目標：
 
@@ -16,7 +20,7 @@
 利用 PyTorch 實作倒傳遞神經網路（Backpropagation Neural Network, BPN），建立深度學習模型進行比賽勝負預測。
 
 ## 資料集（Dataset）
-#### 利用API的方式，使用 [中華職業棒球大聯盟](https://www.cpbl.com.tw/)之數據
+利用API的方式，使用 [中華職業棒球大聯盟](https://www.cpbl.com.tw/)之數據
 
 ## 網絡說明
 #### 三層網絡架構圖
@@ -71,7 +75,7 @@
 
 ## 架構
 ```mermaid
-flowchart TD
+flowchart LR
 
 A[CPBL原始比賽資料]
 --> B[資料清理與前處理]
@@ -119,7 +123,7 @@ P --> Q[Test Accuracy]
 - Valid Loss：0.7006
 - Valid Accuracy：55.05%
 
-## BPN模型與其他模型
+### BPN模型與其他模型
 | Model | Test Accuracy |
 |---------|---------|
 | Logistic Regression | 0.588 |
@@ -137,6 +141,5 @@ P --> Q[Test Accuracy]
 ## 貢獻
 
 1. 以爬蟲方式，取得中華職棒網頁中的數據資料
-2. 變數中加入進階數據，而非僅使用直觀數據
-3. 考量數據中含有時間資訊
-4. 透過Python中Pytorch框架建立模型(非使用統計軟體)
+2. 考量數據中含有時間資訊
+3. 透過Python中Pytorch框架建立模型(非使用統計軟體)
