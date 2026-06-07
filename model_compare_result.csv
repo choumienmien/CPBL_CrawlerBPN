@@ -1,0 +1,10 @@
+﻿model,test_file,accuracy,logloss
+Logistic Regression - Valid,UnionValid.csv,0.5833333333333334,0.571581614950481
+Logistic Regression - Valid2,UnionValid2.csv,0.6326530612244898,0.5677491375934955
+Logistic Regression - Test,UnionTest.csv,0.5882352941176471,0.6795082820091919
+Random Forest - Valid,UnionValid.csv,0.75,0.62476698255932
+Random Forest - Valid2,UnionValid2.csv,0.8775510204081632,0.5944935297443129
+Random Forest - Test,UnionTest.csv,0.47058823529411764,0.7070826036677854
+XGBoost - Valid,UnionValid.csv,0.7083333333333334,0.6584468881569857
+XGBoost - Valid2,UnionValid2.csv,0.7346938775510204,0.6507208145573191
+XGBoost - Test,UnionTest.csv,0.5882352941176471,0.6721895014006756
